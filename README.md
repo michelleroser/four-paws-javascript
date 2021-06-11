@@ -1,59 +1,92 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Four Paws
 
-Welcome USER_NAME,
+Four Paws is a site advertising the dog care services of a small business in Surrey, England. This site will be targeted towards dog owners who are seeking professional dog walking, sitting and day care services in their local area. The site will clearly show the available services, opening times and an image gallery showing the facilities and type of dogs the business currently care for.  
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+insert image here
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Features
 
-`python3 -m http.server`
+### Existing Features
 
-A blue button should appear to click: _Make Public_,
+* Navigation Bar
+  * Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Contact page and is identical in each page to allow for easy navigation and satisfying UX.
+  * This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-Another blue button should appear to click: _Open Browser_.
+! Nav Bar image insert here
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* The landing page image
+  * The landing includes a bright and welcoming image of a selection of dogs playing together within the Four Paws Daycare Centre
+  * This section introduces the user to Four Paws Daycare with an interesting animation to grab their attention
 
-A blue button should appear to click: _Make Public_,
+! Landing Page image insert here
 
-Another blue button should appear to click: _Open Browser_.
+* Services Section
+  * The services section will show the user the exact services Four Paws Daycare provides.
+  * This will allow the user to quickly see the content they are seeking upon visiting the site, so they know whether it is worth enquiring further.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+! services section image insert
 
-To log into the Heroku toolbelt CLI:
+* Opening Times Section
+  * This section will clearly display the different opening times for each day of the week in an easy to read layout.
+  * This will allow the user to quickly ascertain whether the service times available match up with their expectations, along with knowing when the business is open and available to take enquiries.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+!times section insert image here
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+* The Footer
+  * The footer section includes links to the relevant social media sites for Four Paws Daycare. The links will open to a new tab to allow easy navigation for the user.
+  * The footer is valuable to the user as it encourages them to keep connected via social media and allows the user to view further photographs and reviews on these platforms.
 
-## Updates Since The Instructional Video
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+! Footer image insert here
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+* Gallery
+  * The gallery will provide the user with supporting images to see what the day care facilities look like, along with some of the current dogs under Four Paws Daycare's care.
+  * This section is valuable to the user as they will be able to see how much space is available for their dog along with the multiple types of dogs that the business have experience with to help reassure them further.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+! Gallery image insert here
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+* The Contact Page
+  * This page will allow the user to see the address, telephone number and email address for the business.
+  * It will include a google maps link so that the user can clearly identify the distance needed to travel to use their daycare services.
+  * It will also include an enquiry form so that the user can submit a further enquiry if they would like to know more information. The form will include the ability to specify whether the user would like to be contacted via telephone or email.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+! Sign Up image insert here
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Features Left to Implement
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+* About Us page
+  * A further feature to add would be a page with images of each individual team member, with a brief description of themselves and why they love caring for dogs.
+  * This page would also include an insert from the owners explaining more about why they decided to start Four Paws Daycare.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+* Price List
+  * Another valuable feature to add would be a price list for the services, so that the user can identify immediately whether the service price meet their expectations and budget.
+  
 
----
+## Testing
 
-Happy coding!
+
+
+### Validator Testing
+
+
+
+## Unfixed Bugs
+
+
+
+## Deployment
+
+
+
+## Credits
+
+
+
+### Content
+
+
+
+### Media
