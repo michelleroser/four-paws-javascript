@@ -25,13 +25,21 @@
 #nav-design:hover {
   color: rgba(128,86,86,0.64);
 }
+
+.navposition{
+  margin-bottom: 20px;
+}
 /*--------------------------------------------Images*/
+
 
 #hero-image {
   background-size: cover;
   height: 30%;
 }
 
+#hero-image2 {
+  display:none !important;
+}
 /*--------------------------------------------Headings*/
 
 .headings {
@@ -41,33 +49,19 @@
   text-decoration: underline;
   font-family: initial;
   font-size: 40px;
-  margin-top: 50px;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
-.walking-heading {
+.walking-heading, .sitting-heading, .daycare-heading{
   color: rgba(128,86,86,0.64);
   text-transform: uppercase;
   font-family: initial;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
-.sitting-heading {
-  color: rgba(128,86,86,0.64);
-  text-transform: uppercase;
-  font-family: initial;
-  text-align: center;
-  padding-top: 20px;
-}
 
-.daycare-heading {
-  color: rgba(128,86,86,0.64);
-  text-transform: uppercase;
-  font-family: initial;
-  text-align: center;
-  padding-top: 20px;
-}
 
 /*--------------------------------------------Service items*/
 
@@ -275,7 +269,7 @@ div p{
   margin-top: 15px;
   text-align: center;
   font-size: 13px;
-  color: #aaa;
+  color: black;
   margin-bottom: 0;
 }
 
@@ -298,6 +292,9 @@ div p{
   .fa.fa-paw, .fa.fa-clock-o{
     font-size: 25px;
   }
+  #nav-design {
+    font-size: 15px;
+  }
 
 }
 
@@ -308,14 +305,18 @@ div p{
     margin-bottom: 30px;
   }
 
+.gallery-design {
+
+}
 
 }
 
 
-@media only screen and (max-width:480px){
-
-#hero-image {
-  background-image: url('../../assets/images/dogs-river.jpeg') center;
-
-  }
+@media only screen and (max-width: 480px) {
+    #hero-image {
+        display: none !important;
+    }
+    #hero-image2 {
+      display: block !important;
+    }
 }
