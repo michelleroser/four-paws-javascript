@@ -3,7 +3,7 @@
 #logo {
   font-size: 45px;
   color: rgb(132, 130, 125);
-  font-family: initial;
+  font-family: 'Baloo 2', sans-serif;
   text-transform: uppercase;
 }
 
@@ -18,7 +18,7 @@
 #nav-design {
   color: rgb(132, 130, 125);
   font-size: 25px;
-  font-family: initial;
+  font-family: 'Baloo 2', sans-serif;
   text-transform: uppercase;
 }
 
@@ -26,20 +26,40 @@
   color: rgba(128,86,86,0.64);
 }
 
-.navposition{
-  margin-bottom: 20px;
-}
+
 /*--------------------------------------------Images*/
 
 
 #hero-image {
-  background-size: cover;
+  width: 100%;
   height: 30%;
+  animation-name: hero-zoom;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
 }
+
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(0.95);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
 
 #hero-image2 {
   display:none !important;
 }
+
+/*--------------------------------------------Backgrounds*/
+
+.background2{
+  background-color: #f8f9f8;
+
+}
+
 /*--------------------------------------------Headings*/
 
 .headings {
@@ -47,7 +67,7 @@
   text-transform: uppercase;
   text-align:center;
   text-decoration: underline;
-  font-family: initial;
+  font-family: 'Baloo 2', sans-serif;
   font-size: 40px;
   margin-top: 20px;
   margin-bottom: 10px;
@@ -56,9 +76,10 @@
 .walking-heading, .sitting-heading, .daycare-heading{
   color: rgba(128,86,86,0.64);
   text-transform: uppercase;
-  font-family: initial;
+  font-family: 'Baloo 2', sans-serif;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 20px;
+
 }
 
 
@@ -68,28 +89,12 @@
 .service-list-items {
   font-size: 20px;
   text-transform: uppercase;
-  font-family: initial;
+  font-family: 'Baloo 2', sans-serif;
   color: #6b7056;
 
 }
 
-.sitting-list {
-  text-align: center;
-  color: #413c39;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.walking-list {
-  text-align: center;
-  color: #413c39;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.daycare-list {
+.sitting-list, .walking-list, .daycare-list {
   text-align: center;
   color: #413c39;
   list-style-type: none;
@@ -98,7 +103,7 @@
 }
 
 .services-design {
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 
 }
 /*--------------------------------------------Icons*/
@@ -153,6 +158,13 @@ table td {
   font-size: 20px;
 }
 
+/*--------------------------------------------Gallery*/
+
+.gallery-design{
+  background-color: #f2e9e9;
+
+}
+
 
 
 /*--------------------------------------------Address*/
@@ -160,10 +172,10 @@ table td {
 div p{
   color: rgb(132, 130, 125);
   text-transform: uppercase;
-  font-family: initial;
+  font-family: 'Baloo 2', sans-serif;
   text-align: center;
   font-size: 25px;
-  margin-top: 40px;
+  margin-top: 10px;
 
 }
 
@@ -194,17 +206,6 @@ div p{
     width:100%;
 
     position:absolute;
-
-}
-
-
-
-
-/*--------------------------------------------Form*/
-
-.form-design {
-
-
 
 }
 
@@ -304,12 +305,8 @@ div p{
     margin-top: 0;
     margin-bottom: 30px;
   }
-
-.gallery-design {
-
 }
 
-}
 
 
 @media only screen and (max-width: 480px) {
