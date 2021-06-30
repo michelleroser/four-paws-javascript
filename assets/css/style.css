@@ -2,13 +2,13 @@
 
 #logo {
   font-size: 45px;
-  color: rgba(128,86,86,0.64);
+  color: rgb(132, 130, 125);
   font-family: initial;
   text-transform: uppercase;
 }
 
 #logo:hover {
-  color: rgb(107,112,86);
+  color: rgba(128,86,86,0.64);
 }
 
 #navcol {
@@ -16,14 +16,14 @@
 }
 
 #nav-design {
-  color: rgba(128,86,86,0.64);
+  color: rgb(132, 130, 125);
   font-size: 25px;
   font-family: initial;
   text-transform: uppercase;
 }
 
 #nav-design:hover {
-  color: rgb(107,112,86);
+  color: rgba(128,86,86,0.64);
 }
 /*--------------------------------------------Images*/
 
@@ -35,8 +35,10 @@
 /*--------------------------------------------Headings*/
 
 .headings {
-  color: rgb(107,112,86);
+  color: rgb(132, 130, 125);
   text-transform: uppercase;
+  text-align:center;
+  text-decoration: underline;
   font-family: initial;
   font-size: 40px;
   margin-top: 50px;
@@ -140,8 +142,7 @@
 }
 
 #background {
-  background-color: rgba(128,86,86,0.64);
-  padding-bottom: 20px;
+  background-color: #f2e9e9;
 
 }
 
@@ -160,13 +161,67 @@ table td {
 
 
 
+/*--------------------------------------------Address*/
+
+div p{
+  color: rgb(132, 130, 125);
+  text-transform: uppercase;
+  font-family: initial;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 40px;
+
+}
+
+
+/*--------------------------------------------Map*/
+
+
+.map-responsive{
+
+    overflow:hidden;
+
+    padding-bottom:65%;
+
+    position:relative;
+
+    height:0;
+
+}
+
+.map-responsive iframe{
+
+    left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
+
+}
+
+
+
+
+/*--------------------------------------------Form*/
+
+.form-design {
+
+
+
+}
+
+
 /*--------------------------------------------Footer*/
 
 
 
 .footer-basic {
   padding: 40px 0;
-  background-color: #ffffff;
+  background-color: #f2e9e9;
   color: #4b4c4d;
 }
 
@@ -246,6 +301,15 @@ table td {
 
 }
 
+@media (max-width:480px){
+  div p {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+
+
+}
 
 
 @media only screen and (max-width:480px){
