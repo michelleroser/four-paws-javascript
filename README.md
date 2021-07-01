@@ -52,7 +52,7 @@ Four Paws is a site advertising the dog care services of a small business in Sur
   * Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Contact page and is identical in each page to allow for easy navigation and satisfying UX.
   * This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-![Image of navigation bar](/images/navbar.jpg)
+![Image of navigation bar](assets/images/navbar.jpg)
 
 * The landing page image
   * The landing includes a bright and welcoming image of a selection of dogs playing together within the Four Paws Daycare Centre
