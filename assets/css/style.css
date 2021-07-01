@@ -1,5 +1,4 @@
 /*--------------------------------------------Logo & Navbar*/
-
 #logo {
   font-size: 45px;
   color: rgb(132, 130, 125);
@@ -8,28 +7,27 @@
 }
 
 #logo:hover {
-  color: rgba(128,86,86,0.64);
+  color: rgba(128, 86, 86, 0.64);
 }
 
 #navcol {
   margin-top: 10px;
 }
 
-#nav-design {
+/*--------------------------------------------Backgrounds*/
+
+#nav1, #nav2, #nav3{
   color: rgb(132, 130, 125);
   font-size: 25px;
   font-family: 'Baloo 2', sans-serif;
   text-transform: uppercase;
 }
 
-#nav-design:hover {
-  color: rgba(128,86,86,0.64);
+#nav1:hover, #nav2:hover, #nav3:hover {
+  color: rgba(128, 86, 86, 0.64);
 }
 
-
 /*--------------------------------------------Images*/
-
-
 #hero-image {
   width: 100%;
   height: 30%;
@@ -38,34 +36,37 @@
   animation-fill-mode: forwards;
 }
 
-
 @keyframes hero-zoom {
-    from{
-        transform: scale(0.95);
-    }
-    to{
-        transform: scale(1);
-    }
+  from {
+    transform: scale(0.95);
+  }
+
+  to {
+    transform: scale(1);
+  }
 }
 
-
 #hero-image2 {
-  display:none !important;
+  display: none !important;
 }
 
 /*--------------------------------------------Backgrounds*/
 
-.background2{
-  background-color: #f8f9f8;
-
+#background{
+  background-color:#f2e9e9:
 }
 
-/*--------------------------------------------Headings*/
+.background2 {
+  background-color: #f8f9f8;
+}
 
+
+/*--------------------------------------------Headings*/
 .headings {
   color: rgb(132, 130, 125);
+  background-color: #f2e9e9;
   text-transform: uppercase;
-  text-align:center;
+  text-align: center;
   text-decoration: underline;
   font-family: 'Baloo 2', sans-serif;
   font-size: 40px;
@@ -73,25 +74,20 @@
   margin-bottom: 10px;
 }
 
-.walking-heading, .sitting-heading, .daycare-heading{
-  color: rgba(128,86,86,0.64);
+.walking-heading, .sitting-heading, .daycare-heading {
+  color: rgba(128, 86, 86, 0.64);
   text-transform: uppercase;
   font-family: 'Baloo 2', sans-serif;
   text-align: center;
   padding-top: 20px;
-
 }
 
-
-
 /*--------------------------------------------Service items*/
-
 .service-list-items {
   font-size: 20px;
   text-transform: uppercase;
   font-family: 'Baloo 2', sans-serif;
   color: #6b7056;
-
 }
 
 .sitting-list, .walking-list, .daycare-list {
@@ -104,10 +100,9 @@
 
 .services-design {
   margin-bottom: 10px;
-
 }
-/*--------------------------------------------Icons*/
 
+/*--------------------------------------------Icons*/
 .fa.fa-paw {
   padding-right: 15px;
   font-size: 45px;
@@ -117,7 +112,6 @@
   padding-left: 15px;
   font-size: 45px;
 }
-
 
 .fa.fa-clock-o {
   padding-right: 15px;
@@ -130,8 +124,6 @@
 }
 
 /*--------------------------------------------Opening times*/
-
-
 .opening-times {
   font-size: 45px;
 }
@@ -141,8 +133,7 @@
 }
 
 #background {
-  background-color: #f2e9e9;
-
+  background-color: #f2e9e9 !important;
 }
 
 table {
@@ -150,7 +141,6 @@ table {
   color: #413c39;
   margin: auto;
   width: 50% !important;
-
 }
 
 table td {
@@ -159,61 +149,37 @@ table td {
 }
 
 /*--------------------------------------------Gallery*/
-
-.gallery-design{
+.gallery-design {
   background-color: #f2e9e9;
-
 }
 
-
-
 /*--------------------------------------------Address*/
-
-div p{
+div p {
   color: rgb(132, 130, 125);
   text-transform: uppercase;
   font-family: 'Baloo 2', sans-serif;
   text-align: center;
   font-size: 25px;
   margin-top: 10px;
-
 }
-
 
 /*--------------------------------------------Map*/
-
-
-.map-responsive{
-
-    overflow:hidden;
-
-    padding-bottom:65%;
-
-    position:relative;
-
-    height:0;
-
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 65%;
+  position: relative;
+  height: 0;
 }
 
-.map-responsive iframe{
-
-    left:0;
-
-    top:0;
-
-    height:100%;
-
-    width:100%;
-
-    position:absolute;
-
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
-
 
 /*--------------------------------------------Footer*/
-
-
-
 .footer-basic {
   padding: 40px 0;
   background-color: #f2e9e9;
@@ -248,7 +214,7 @@ div p{
   padding-bottom: 25px;
 }
 
-.footer-basic .social > a {
+.footer-basic .social>a {
   font-size: 24px;
   width: 40px;
   height: 40px;
@@ -262,7 +228,7 @@ div p{
   opacity: 0.75;
 }
 
-.footer-basic .social > a:hover {
+.footer-basic .social>a:hover {
   opacity: 0.9;
 }
 
@@ -274,32 +240,28 @@ div p{
   margin-bottom: 0;
 }
 
-
-
-
-
 /*--------------------------------------------Media Queries*/
-
-
-@media (max-width:480px){
+@media (max-width:480px) {
   .headings {
     font-size: 25px;
   }
 
-  #logo{
+  #logo {
     font-size: 20px;
   }
 
-  .fa.fa-paw, .fa.fa-clock-o{
+  .fa.fa-paw, .fa.fa-clock-o {
     font-size: 25px;
   }
+
   #nav-design {
     font-size: 15px;
   }
 
-}
+  .sitting-list, .walking-list, .daycare-list {
+    font-size: 17px;
+  }
 
-@media (max-width:480px){
   div p {
     font-size: 20px;
     margin-top: 0;
@@ -307,13 +269,12 @@ div p{
   }
 }
 
-
-
 @media only screen and (max-width: 480px) {
-    #hero-image {
-        display: none !important;
-    }
-    #hero-image2 {
-      display: block !important;
-    }
+  #hero-image {
+    display: none !important;
+  }
+
+  #hero-image2 {
+    display: block !important;
+  }
 }
