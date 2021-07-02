@@ -37,15 +37,15 @@ Four Paws is a site advertising the dog care services of a small business in Sur
 
 ### Wireframes
 
-    * [Homepage Desktop](assets/readme-images/homepage-desktop.png)
+[Homepage Desktop](assets/readme-images/homepage-desktop.png)
 
-    * [Homepage Tablet](assets/readme-images/homepage-tablet.png)
+[Homepage Tablet](assets/readme-images/homepage-tablet.png)
 
-    * [Homepage Mobile](assets/readme-images/homepage-mobile.png)
+[Homepage Mobile](assets/readme-images/homepage-mobile.png)
 
-    * [Gallery Page - All Devices]()
+[Gallery Page] - All Devices]()
 
-    * [Contact Page - All Devices]()
+[Contact Page] - All Devices]()
 
 
 
