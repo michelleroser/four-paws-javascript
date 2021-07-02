@@ -15,8 +15,7 @@
 }
 
 /*--------------------------------------------Backgrounds*/
-
-#nav1, #nav2, #nav3{
+#nav1, #nav2, #nav3 {
   color: rgb(132, 130, 125);
   font-size: 25px;
   font-family: 'Baloo 2', sans-serif;
@@ -51,15 +50,13 @@
 }
 
 /*--------------------------------------------Backgrounds*/
-
-#background{
-  background-color:#f2e9e9;
+#background {
+  background-color: #f2e9e9;
 }
 
 .background2 {
   background-color: #f8f9f8;
 }
-
 
 /*--------------------------------------------Headings*/
 .headings {
