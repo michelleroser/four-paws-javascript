@@ -101,7 +101,7 @@ Four Paws is a site advertising the dog care services of a small business in Sur
   * It will include a google maps link so that the user can clearly identify the distance needed to travel to use their daycare services.
   * It will also include an enquiry form so that the user can submit a further enquiry if they would like to know more information.
 
-![Image of contact page](assets/readme-images/contactpage.png)
+![Image of contact page](assets/screenshots/contactpage.png)
 
 ### Features Left to Implement
 
@@ -140,8 +140,8 @@ Four Paws is a site advertising the dog care services of a small business in Sur
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-* W3C Markup Validator - [Results](assets/readme-image/html-test.png)
-* W3C CSS Validator - [Results](assets/readme-image/css-test.png)
+* W3C Markup Validator - [Results](assets/readme-images/html-test.png)
+* W3C CSS Validator - [Results](assets/readme-images/css-test.png)
 
 
 ## Testing User Stories from User Experience (UX) Section
