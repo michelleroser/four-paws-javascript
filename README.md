@@ -37,11 +37,11 @@ Four Paws is a site advertising the dog care services of a small business in Sur
 
 ### Wireframes
 
-    * Home Page Wireframe - [View]()
+    * Home Page Wireframe - ![View](assets/readme/homepagewireframe.png)
 
-    * Gallery Wireframe - [View]()
+    * Gallery Wireframe - ![View]()
 
-    * Contact Us Page Wireframe - [View]()
+    * Contact Us Page Wireframe - ![View]()
 
 
 ## Features
@@ -49,49 +49,39 @@ Four Paws is a site advertising the dog care services of a small business in Sur
 ### Existing Features
 
 * Navigation Bar
-  * Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Contact page and is identical in each page to allow for easy navigation and satisfying UX.
+  * Featured on all three pages, the fully responsive navigation bar includes links to the Logo, Home page, Gallery and Contact page and is identical in each page to allow for easy navigation and satisfying UX.
   * This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-![Image of navigation bar](https://ibb.co/PGwJzTF)
 
 * The landing page image
-  * The landing includes a bright and welcoming image of a selection of dogs playing together within the Four Paws Daycare Centre
+  * The landing includes a bright and welcoming image of a dog playing with a ball in the local woods.
   * This section introduces the user to Four Paws Daycare with an interesting animation to grab their attention
 
-![Image of landing page](/images/dog-1.jpeg)
 
 * Services Section
   * The services section will show the user the exact services Four Paws Daycare provides.
   * This will allow the user to quickly see the content they are seeking upon visiting the site, so they know whether it is worth enquiring further.
 
-![Image of Services section](/images/dog-1.jpeg)
 
 * Opening Times Section
   * This section will clearly display the different opening times for each day of the week in an easy to read layout.
   * This will allow the user to quickly ascertain whether the service times available match up with their expectations, along with knowing when the business is open and available to take enquiries.
 
-![Image of the opening times section](/images/dog-1.jpeg)
 
 * The Footer
   * The footer section includes links to the relevant social media sites for Four Paws Daycare. The links will open to a new tab to allow easy navigation for the user.
   * The footer is valuable to the user as it encourages them to keep connected via social media and allows the user to view further photographs and reviews on these platforms.
 
 
-![Image of the footer](/images/dog-1.jpeg)
-
 * Gallery
   * The gallery will provide the user with supporting images to see how happy the dogs are under Four Paws Daycare's care.
   * This section is valuable to the user as they will be able to see how much space is available for their dog along with the multiple types of dogs that the business have experience with to help reassure them further.
-
-![Image of gallery](/images/dog-1.jpeg)
 
 
 * The Contact Page
   * This page will allow the user to see the address, telephone number and email address for the business.
   * It will include a google maps link so that the user can clearly identify the distance needed to travel to use their daycare services.
   * It will also include an enquiry form so that the user can submit a further enquiry if they would like to know more information.
-
-![Image of contact page](/images/dog-1.jpeg "Image Title")
 
 
 ### Features Left to Implement
@@ -119,11 +109,11 @@ Four Paws is a site advertising the dog care services of a small business in Sur
 * Font Awesome:
   * Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 * jQuery:
- * jQuery came with Bootstrap to make the navbar responsive.
+  * jQuery came with Bootstrap to make the navbar responsive.
 * Git
- * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+  * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 * GitHub:
- * GitHub is used to store the projects code after being pushed from Git.
+  * GitHub is used to store the projects code after being pushed from Git.
 * Balsamiq:
   * Balsamiq was used to create the wireframes during the design process.
 
@@ -148,21 +138,21 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     * On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
 
   * As a First Time Visitor, I want to look for opening times so I know if the service will be able to meet my schedule.
-    * Once the new visitor has scrolled past the image they will immediately be provided the opening times.
+    * Once the new visitor has scrolled past the image they will immediately be provided with the opening times section.
 
 
 * Returning Visitor Goals
   * As a Returning Visitor, I want to find information about opening times.
     * These are clearly shown on the homepage.
 
-    * As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-      * The navigation bar clearly highlights the "Contact Us" Page.
-      * Here they can fill out the form on the page to be contacted, or they can use the Daycare contact details.
-      * The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
-      * Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
+  * As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+    * The navigation bar clearly highlights the "Contact Us" Page.
+    * Here they can fill out the form on the page to be contacted, or they can use the Daycare contact details.
+    * The footer contains links to the organisations Facebook, Twitter and Instagram page.
+    * Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
 
-    * As a Returning Visitor, I want to find community links.
-      * The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
+  * As a Returning Visitor, I want to find community links.
+    * The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
 
 
 * Frequent User Goals
@@ -193,14 +183,14 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Code
 
-    * The Hero Image animation came from Code Institute, Love Running Project.
+* The Hero Image animation came from Code Institute, Love Running Project.
 
-    * Bootstrap5: Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+* Bootstrap5: Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
 
 ### Content
 
-    * All content was written by the developer.
+* All content was written by the developer.
 
 
 ### Media
@@ -210,7 +200,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
   * "Dog-2" - Valeria Boltneva
   * "Dog-3" - Jayden Burdick
   * "Dog-4" - Adam Kontor
-  * "Dog-5" -  Vlad Chețan
+  * "Dog-5" - Vlad Chețan
   * "Dog-6" - Dariusz Grosa
   * "dog-iphone" - Mithul Varshan
   * "dog-with-ball" - Chepté Cormani
