@@ -2,7 +2,6 @@
 
 Four Paws is a site advertising the dog care services of a small business in Surrey, England. This site will be targeted towards dog owners who are seeking professional dog walking, sitting and day care services in their local area. The site will clearly show the available services, opening times and an image gallery showing the facilities and type of dogs the business currently care for.  
 
-![Image of landing page](/images/dog-1.jpeg "Image Title")
 
 ## User Experience (UX)
 
@@ -43,9 +42,17 @@ Four Paws is a site advertising the dog care services of a small business in Sur
 
 [Homepage Mobile](assets/readme-images/homepage-mobile.png)
 
-[Gallery Page] - All Devices]()
+[Gallery Desktop](assets/readme-images/gallery-desktop.png)
 
-[Contact Page] - All Devices]()
+[Gallery Tablet](assets/readme-images/gallery-tablet.png)
+
+[Gallery Mobile](assets/readme-images/gallery-mobile.png)
+
+[Contact Desktop](assets/readme-images/contact-desktop.png)
+
+[Contact Tablet](assets/readme-images/contact-tablet.png)
+
+[Contact Mobile](assets/readme-images/contact-mobile.png)
 
 
 ## Features
@@ -133,8 +140,8 @@ Four Paws is a site advertising the dog care services of a small business in Sur
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-    * W3C Markup Validator - [Results](http://jigsaw.w3.org/css-validator/validator$link)
-    * W3C CSS Validator - [Results](https://validator.w3.org/nu/#textarea)
+* W3C Markup Validator - [Results](http://jigsaw.w3.org/css-validator/validator$link)
+* W3C CSS Validator - [Results](https://validator.w3.org/nu/#textarea)
 
 
 ## Testing User Stories from User Experience (UX) Section
@@ -207,7 +214,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Media
 
-* All Images were sourced from Pexels
+* All Images were sourced from https://www.pexels.com/
   * "Dog-1" - Snapwire
   * "Dog-2" - Valeria Boltneva
   * "Dog-3" - Jayden Burdick
