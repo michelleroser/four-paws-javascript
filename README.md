@@ -140,8 +140,8 @@ Four Paws is a site advertising the dog care services of a small business in Sur
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-* W3C Markup Validator - [Results](assets/readme-images/html-test.png)
-* W3C CSS Validator - [Results](assets/readme-images/css-test.png)
+* W3C Markup Validator - [Results](assets/screenshots/html-test.png)
+* W3C CSS Validator - [Results](assets/screenshots/css-test.png)
 
 
 ## Testing User Stories from User Experience (UX) Section
