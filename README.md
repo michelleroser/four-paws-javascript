@@ -48,8 +48,6 @@ Four Paws is a site advertising the dog care services of a small business in Sur
 [Contact Page] - All Devices]()
 
 
-
-
 ## Features
 
 ### Existing Features
@@ -58,37 +56,45 @@ Four Paws is a site advertising the dog care services of a small business in Sur
   * Featured on all three pages, the fully responsive navigation bar includes links to the Logo, Home page, Gallery and Contact page and is identical in each page to allow for easy navigation and satisfying UX.
   * This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
+![Image of navigation bar](assets/readme-images/navbar.png)
+
 
 * The landing page image
   * The landing includes a bright and welcoming image of a dog playing with a ball in the local woods.
   * This section introduces the user to Four Paws Daycare with an interesting animation to grab their attention
 
+![Image of landing page](assets/readme-images/heroimage.png)
 
 * Services Section
   * The services section will show the user the exact services Four Paws Daycare provides.
   * This will allow the user to quickly see the content they are seeking upon visiting the site, so they know whether it is worth enquiring further.
 
+![Image of services section](assets/readme-images/services.png)
 
 * Opening Times Section
   * This section will clearly display the different opening times for each day of the week in an easy to read layout.
   * This will allow the user to quickly ascertain whether the service times available match up with their expectations, along with knowing when the business is open and available to take enquiries.
 
+![Image of opening times](assets/readme-images/openingtimes.png)
 
 * The Footer
   * The footer section includes links to the relevant social media sites for Four Paws Daycare. The links will open to a new tab to allow easy navigation for the user.
   * The footer is valuable to the user as it encourages them to keep connected via social media and allows the user to view further photographs and reviews on these platforms.
 
+![Image of the footer](assets/readme-images/footer.png)
 
 * Gallery
   * The gallery will provide the user with supporting images to see how happy the dogs are under Four Paws Daycare's care.
   * This section is valuable to the user as they will be able to see how much space is available for their dog along with the multiple types of dogs that the business have experience with to help reassure them further.
 
+![Image of gallery page](assets/readme-images/gallerypage.png)
 
 * The Contact Page
   * This page will allow the user to see the address, telephone number and email address for the business.
   * It will include a google maps link so that the user can clearly identify the distance needed to travel to use their daycare services.
   * It will also include an enquiry form so that the user can submit a further enquiry if they would like to know more information.
 
+![Image of contact page](assets/readme-images/contactpage.png)
 
 ### Features Left to Implement
 
