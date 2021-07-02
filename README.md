@@ -63,38 +63,38 @@ Four Paws is a site advertising the dog care services of a small business in Sur
   * Featured on all three pages, the fully responsive navigation bar includes links to the Logo, Home page, Gallery and Contact page and is identical in each page to allow for easy navigation and satisfying UX.
   * This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-![Image of navigation bar](assets/readme-images/navbar.png)
+![Image of navigation bar](assets/screenshots/navbar.png)
 
 
 * The landing page image
   * The landing includes a bright and welcoming image of a dog playing with a ball in the local woods.
   * This section introduces the user to Four Paws Daycare with an interesting animation to grab their attention
 
-![Image of landing page](assets/readme-images/heroimage.png)
+![Image of landing page](assets/screenshots/heroimage.png)
 
 * Services Section
   * The services section will show the user the exact services Four Paws Daycare provides.
   * This will allow the user to quickly see the content they are seeking upon visiting the site, so they know whether it is worth enquiring further.
 
-![Image of services section](assets/readme-images/services.png)
+![Image of services section](assets/screenshots/services.png)
 
 * Opening Times Section
   * This section will clearly display the different opening times for each day of the week in an easy to read layout.
   * This will allow the user to quickly ascertain whether the service times available match up with their expectations, along with knowing when the business is open and available to take enquiries.
 
-![Image of opening times](assets/readme-images/openingtimes.png)
+![Image of opening times](assets/screenshots/openingtimes.png)
 
 * The Footer
   * The footer section includes links to the relevant social media sites for Four Paws Daycare. The links will open to a new tab to allow easy navigation for the user.
   * The footer is valuable to the user as it encourages them to keep connected via social media and allows the user to view further photographs and reviews on these platforms.
 
-![Image of the footer](assets/readme-images/footer.png)
+![Image of the footer](assets/screenshots/footer.png)
 
 * Gallery
   * The gallery will provide the user with supporting images to see how happy the dogs are under Four Paws Daycare's care.
   * This section is valuable to the user as they will be able to see how much space is available for their dog along with the multiple types of dogs that the business have experience with to help reassure them further.
 
-![Image of gallery page](assets/readme-images/gallerypage.png)
+![Image of gallery page](assets/screenshots/gallerypage.png)
 
 * The Contact Page
   * This page will allow the user to see the address, telephone number and email address for the business.
@@ -140,8 +140,8 @@ Four Paws is a site advertising the dog care services of a small business in Sur
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-* W3C Markup Validator - [Results](http://jigsaw.w3.org/css-validator/validator$link)
-* W3C CSS Validator - [Results](https://validator.w3.org/nu/#textarea)
+* W3C Markup Validator - [Results](assets/readme-image/html-test.png)
+* W3C CSS Validator - [Results](assets/readme-image/css-test.png)
 
 
 ## Testing User Stories from User Experience (UX) Section
@@ -196,6 +196,32 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ## Deployment
 
+### The project was deployed to GitHub Pages using the following steps...
+
+    1.Log in to GitHub and locate the GitHub Repository
+    2.At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+    3.Scroll down the Settings page until you locate the "GitHub Pages" Section.
+    4.Under "Source", click the dropdown called "None" and select "Master Branch".
+    5.The page will automatically refresh.
+    6.Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
+### Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+    1.Log in to GitHub and locate the GitHub Repository
+    2.At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+    3.You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+    1.Log in to GitHub and locate the GitHub Repository
+    2.Under the repository name, click "Clone or download".
+    3.To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+    4.Open Git Bash
+    5.Change the current working directory to the location where you want the cloned directory to be made.
+    6.Type git clone, and then paste the URL you copied in Step 3.
+    7.Press Enter. Your local clone will be created.
 
 
 ## Credits
