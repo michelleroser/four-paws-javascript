@@ -13,6 +13,14 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+   (function(){
+      emailjs.init("user_yRR3PcRkJhbe2P9iasprW");
+   })();</script>
+
 </head>
 
 <body>
@@ -74,7 +82,9 @@
     <!-- Form -->
 
 
+
     <div class="container">
+      <form onsubmit="return sendMail(this);">
       <div class="row">
         <div class="headings">
           <h1 class=>Enquiry Form</h1>
@@ -84,23 +94,24 @@
 
       <div class="row justify-content-center">
 
+
         <div class="form-outline mb-4">
           <label class="form-label" for="form"></label>
-          <input type="text" id="form" class="form-control background2" placeholder="Name">
+          <input type="text" name= "name" id="form" class="form-control background2" placeholder="Name">
 
         </div>
 
         <!-- Email input -->
         <div class="form-outline mb-4">
           <label class="form-label" for="form2"></label>
-          <input type="email" id="form2" class="form-control background2" placeholder="Email Address">
+          <input type="email" name ="emailaddress" id="form2" class="form-control background2" placeholder="Email Address">
 
         </div>
 
         <!-- Message input -->
         <div class="form-outline mb-4">
           <label class="form-label" for="form3"></label>
-          <textarea class="form-control background2" id="form3" rows="4" placeholder="Message"></textarea>
+          <textarea class="form-control background2" id="form3" name= "message" rows="4" placeholder="Message"></textarea>
 
         </div>
 
@@ -115,6 +126,7 @@
         <!-- Submit button -->
         <button type="submit" class="btn btn-outline-secondary btn-block mb-4">Send</button>
       </div>
+    </form>
     </div>
   </section>
 
@@ -132,6 +144,7 @@
   <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMcU322Q3NxpPUQptWsXUWx_ZS60Rd_nI&callback=initMap"></script>
   <script src="assets/js/maps.js"></script>
+  <script src="assets/js/sendEmail.js"></script>
 </body>
 
 </html>
