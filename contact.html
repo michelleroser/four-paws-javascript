@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <title>Four Paws Daycare</title>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -55,13 +56,14 @@
             <br>
             <br>
             info@fourpawsdaycare.co.uk
+            <br>
+            <br>
+            <b>Check out our Map to see the areas we walk</b>
           </p>
         </div>
         <div class="col-md-6">
-          <div class="map-responsive">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2499.728370587676!2d-0.1512229836687597!3d51.205656640540454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4875faf26306fcb3%3A0xa672cfeac809405a!2sHoney%20Crock%20Farm!5e0!3m2!1sen!2suk!4v1625057591737!5m2!1sen!2suk"
-              width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          <div id="map" class="map-responsive">
+
           </div>
         </div>
       </div>
@@ -126,7 +128,10 @@
 
     <p class="copyright">Four Paws Daycare © 2021</p>
   </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMcU322Q3NxpPUQptWsXUWx_ZS60Rd_nI&callback=initMap"></script>
+  <script src="assets/js/maps.js"></script>
 </body>
 
 </html>
