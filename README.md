@@ -100,6 +100,15 @@ Four Paws is a site advertising the dog care services of a small business in Sur
   * This page will allow the user to see the address, telephone number and email address for the business.
   * It will include a google maps link so that the user can clearly identify the distance needed to travel to use their daycare services.
   * It will also include an enquiry form so that the user can submit a further enquiry if they would like to know more information.
+  * The Enquiry form will function using additional javascript elements:
+    * Focus on the input areas so the customers get feedback on their clicks.
+    * Using EmailJS to make the contact form fully functional with emails send to the owners personal account.
+    * Show an alert on submission of the form to give the customer a visual confirmation.
+  * The map will include additional javascript functionality:
+    * Cluster Markers to show the locations dogs are taken on walks.
+    * Labels and custom icons pin pointing these markers.
+    * The map shows automatically in terrain view to help the viewer understand the location better.
+  * A weather widget will give the customer an idea of the conditions forecast for the next 7 days. This may help influence their decision making for bookings.
 
 ![Image of contact page](assets/screenshots/contactpage.png)
 
@@ -112,12 +121,16 @@ Four Paws is a site advertising the dog care services of a small business in Sur
 * Price List
   * Another valuable feature to add would be a price list for the services, so that the user can identify immediately whether the service price meet their expectations and budget.
 
+* Map Functionality
+ * I was unable to enable the ability to click on the markers and have them zoom to the exact location. This feature could then include an info window that explains more about that area.
+
 ## Technologies Used
 
 ### Languages Used
 
 * HTML5
 * CSS3
+* jQuery
 
 ## Frameworks, Libraries & Programs Used
 
@@ -129,12 +142,17 @@ Four Paws is a site advertising the dog care services of a small business in Sur
   * Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 * jQuery:
   * jQuery came with Bootstrap to make the navbar responsive.
+  * I wrote custom jQuery to make my form more responsive to the user.
 * Git
   * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 * GitHub:
   * GitHub is used to store the projects code after being pushed from Git.
 * Balsamiq:
   * Balsamiq was used to create the wireframes during the design process.
+* Google API
+ * I integrated googles map api to make my map more interactive.
+* EmailJS API
+ * I integrated the EmailJS api to ensure my enquiry form is functional.
 
 ## Validator Testing
 
@@ -232,6 +250,8 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 
 * Bootstrap5: Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
+* The integration of Email JS was supported with Code Institute Guides.
+
 
 ### Content
 
@@ -249,3 +269,5 @@ By forking the GitHub Repository we make a copy of the original repository on ou
   * "Dog-6" - Dariusz Grosa
   * "dog-iphone" - Mithul Varshan
   * "dog-with-ball" - Chepté Cormani
+
+* SVG Icon for Map sourced from http://svgrepo.com
