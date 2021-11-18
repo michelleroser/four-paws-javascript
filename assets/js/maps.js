@@ -1,6 +1,6 @@
 function initMap() {
       const map = new google.maps.Map(document.getElementById("map"), {
-          zoom: 12,
+          zoom: 8,
           center: {
               lat: 51.204545,
               lng: -0.158548
@@ -21,40 +21,41 @@ function initMap() {
     ];
 
 
-    const svgMarker = {
-        path: "M10.453 14.016l6.563-6.609-1.406-1.406-5.156 5.203-2.063-2.109-1.406 1.406zM12 2.016q2.906 0 4.945 2.039t2.039 4.945q0 1.453-0.727 3.328t-1.758 3.516-2.039 3.070-1.711 2.273l-0.75 0.797q-0.281-0.328-0.75-0.867t-1.688-2.156-2.133-3.141-1.664-3.445-0.75-3.375q0-2.906 2.039-4.945t4.945-2.039z",
-        fillColor: "pink",
-        fillOpacity: 0.6,
-        strokeWeight: 0,
-        rotation: 0,
-        scale: 2,
-        anchor: new google.maps.Point(15, 30),
-      };
+
+    var svgMarker= {
+      url: "assets/images/map-pin.svg",
+      size: new google.maps.Size(71, 71),
+      origin: new google.maps.Point(0, 0),
+      anchor: new google.maps.Point(17, 34),
+      scaledSize: new google.maps.Size(35, 35)
+    };
 
 
-    const markers = locations.map(function(location, i) {
+
+    var markers = locations.map(function(location, i) {
         return new google.maps.Marker({
             position: location,
             label: {
               text: labels[i % labels.length],
               color: '#fff',
-              fontSize: '15px',
+              fontSize: '10px',
               fontWeight: 'bold',
                   },
             icon: svgMarker,
-            title: "Click to zoom",
+            title: "These are some of the best locations in Surrey!",
         });
 
 
-   //  map.addListener("center_changed", () => {
-   //   window.setTimeout(() => {
-   //     map.panTo(marker.getPosition());
-   //   }, 3000);
-   // });
-   // marker.addListener("click", () => {
-   //   map.setZoom(20);
-   //   map.setCenter(marker.getPosition());
-   // });
+
+    map.addListener("center_changed", () => {
+     window.setTimeout(() => {
+       map.panTo(marker.getPosition());
+     }, 3000);
+   });
+   marker.addListener("click", () => {
+     map.setZoom(20);
+     map.setCenter(marker.getPosition());
+   });
 
   });
 
