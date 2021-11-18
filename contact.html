@@ -14,12 +14,12 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
-  <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
   <script type="text/javascript">
-   (function(){
+    (function() {
       emailjs.init("user_yRR3PcRkJhbe2P9iasprW");
-   })();</script>
+    })();
+  </script>
 
 </head>
 
@@ -85,56 +85,68 @@
 
     <div class="container">
       <form onsubmit="return sendMail(this);">
-      <div class="row">
-        <div class="headings">
-          <h1 class=>Enquiry Form</h1>
-          <!-- Name input -->
-        </div>
-      </div>
-
-      <div class="row justify-content-center">
-
-
-        <div class="form-outline mb-4">
-          <label class="form-label" for="form"></label>
-          <input type="text" name= "name" id="form" class="form-control background2" placeholder="Name">
-
+        <div class="row">
+          <div class="headings">
+            <h1 class=>Enquiry Form</h1>
+          </div>
         </div>
 
-        <!-- Email input -->
-        <div class="form-outline mb-4">
-          <label class="form-label" for="form2"></label>
-          <input type="email" name ="emailaddress" id="form2" class="form-control background2" placeholder="Email Address">
+        <!-- Name input -->
+        <div class="row justify-content-center">
 
+
+          <div class="form-outline mb-4">
+            <label class="form-label" for="form"></label>
+            <input type="text" name="name" id="form" class="form-control background2" placeholder="Name">
+
+          </div>
+
+          <!-- Email input -->
+          <div class="form-outline mb-4">
+            <label class="form-label" for="form2"></label>
+            <input type="email" name="emailaddress" id="form2" class="form-control background2" placeholder="Email Address">
+
+          </div>
+
+          <!-- Message input -->
+          <div class="form-outline mb-4">
+            <label class="form-label" for="form3"></label>
+            <textarea class="form-control background2" id="form3" name="message" rows="4" placeholder="Message"></textarea>
+
+          </div>
+
+          <!-- Checkbox -->
+          <div class="form-check d-flex justify-content-center mb-4">
+            <input class="form-check-input me-2" type="checkbox" value="" id="form4" checked />
+            <label class="form-check-label" for="form4">
+              Send me a copy of this message
+            </label>
+          </div>
+
+          <!-- Submit button -->
+          <button id="button" type="submit" class="btn btn-outline-secondary btn-block mb-4">Send</button>
         </div>
-
-        <!-- Message input -->
-        <div class="form-outline mb-4">
-          <label class="form-label" for="form3"></label>
-          <textarea class="form-control background2" id="form3" name= "message" rows="4" placeholder="Message"></textarea>
-
-        </div>
-
-        <!-- Checkbox -->
-        <div class="form-check d-flex justify-content-center mb-4">
-          <input class="form-check-input me-2" type="checkbox" value="" id="form4" checked />
-          <label class="form-check-label" for="form4">
-            Send me a copy of this message
-          </label>
-        </div>
-
-        <!-- Submit button -->
-        <button id="button" type="submit" class="btn btn-outline-secondary btn-block mb-4">Send</button>
-      </div>
-    </form>
+      </form>
     </div>
   </section>
 
+    <a class="weatherwidget-io" href="https://forecast7.com/en/51d20n0d17/salfords/" data-label_1="Four Paws" data-label_2="WEATHER GUIDE" data-icons="Climacons Animated" data-theme="original" data-basecolor="#f2e9e9" data-textcolor="#6c6a6a"
+      data-highcolor="#f86161" data-lowcolor="#588fe5" data-cloudfill="#ffffff">Four Paws WEATHER GUIDE</a>
+    <script>
+      ! function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (!d.getElementById(id)) {
+          js = d.createElement(s);
+          js.id = id;
+          js.src = 'https://weatherwidget.io/js/widget.min.js';
+          fjs.parentNode.insertBefore(js, fjs);
+        }
+      }(document, 'script', 'weatherwidget-io-js');
+    </script>
 
 
 
-
-  <footer class="footer-basic">
+  <footer class="footer-basic" id="footer-contact">
     <div class="social"><a href="https://www.instagram.com/" target="_blank"><i class="icon ion-social-instagram"></i></a><a href="https://twitter.com/?lang=en-gb" target="_blank"><i class="icon ion-social-twitter"></i></a><a
         href="https://en-gb.facebook.com/" target="_blank"><i class="icon ion-social-facebook"></i></a></div>
 

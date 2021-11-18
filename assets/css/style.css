@@ -176,7 +176,21 @@ div p {
   position: absolute;
 }
 
+
+.weather {
+  padding:0 !important;
+}
+
+
+
+
 /*--------------------------------------------Footer*/
+
+.footer-contact{
+  margin-top:50px !important;
+
+}
+
 .footer-basic {
   padding: 40px 0;
   background-color: #f2e9e9;
