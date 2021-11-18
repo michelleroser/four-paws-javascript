@@ -47,15 +47,15 @@ function initMap() {
 
 
 
-    map.addListener("center_changed", () => {
-     window.setTimeout(() => {
-       map.panTo(marker.getPosition());
-     }, 3000);
-   });
-   marker.addListener("click", () => {
-     map.setZoom(20);
-     map.setCenter(marker.getPosition());
-   });
+   //  map.addListener("center_changed", () => {
+   //   window.setTimeout(() => {
+   //     map.panTo(marker.getPosition());
+   //   }, 3000);
+   // });
+   // marker.addListener("click", () => {
+   //   map.setZoom(20);
+   //   map.setCenter(marker.getPosition());
+   // });
 
   });
 
